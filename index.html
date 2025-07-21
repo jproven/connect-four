@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connect Four</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Permanent+Marker&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
     <script src="main.js" defer></script>
 </head>
 
 <body>
 
-    <h3>The current Player is: Player<span id="current-player">1</span></h3>
+    <h3>The current Player is: Player <span id="current-player">1</span></h3>
     <h3 id="result"></h3>
-    <button id="restart-btn">Restart</button>
 
     <div class="container">
         <div></div>
@@ -66,6 +70,9 @@
         <div class="taken invisible"></div>
         <div class="taken invisible"></div>
     </div>
+
+    <button id="restart-btn">Restart</button>
+
 </body>
 
 </html>
