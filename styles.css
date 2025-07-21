@@ -96,7 +96,7 @@ h3 {
   .container {
     width: 98vw;
     height: calc(98vw * 6 / 7);
-    margin: 20px auto 0 auto;
+    margin: 0 auto;
     box-sizing: border-box;
     justify-content: center;
   }
@@ -134,7 +134,7 @@ h3 {
   .container {
     width: 100vw;
     height: calc(100vw * 6 / 7);
-    margin: 10px auto 0 auto;
+    margin: 0 auto;
     box-sizing: border-box;
     justify-content: center;
   }
