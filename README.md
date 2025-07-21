@@ -18,9 +18,11 @@ A modern, responsive implementation of the classic Connect Four game using HTML,
 
 ## Project Structure
 
+```
 connect-four/ 
-    ├── index.html 
-    ├── styles.css 
-    └── main.js
+├── index.html 
+├── styles.css 
+└── main.js
+```
 
 - The game is fully client-side and requires no dependencies.
